@@ -17,7 +17,16 @@ sum=first + second;
 first=second;
 second=sum;
 }
-printf(" %d",sum)
+printf(" %d",sum);
 }
 return 0;
 }
+
+
+
+OUTPUT
+Enter the number of terms: 8
+Fibonacci Series: 0 1 1 2 3 5 8 13
+--------------------------------
+Process exited after 2.687 seconds with return value 0
+Press any key to continue . . .
