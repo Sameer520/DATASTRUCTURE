@@ -11,3 +11,12 @@ int main()
     printf("Sum of all even numbers from 1 to %d: %d", n, sum);  
     return 0;  
 }  
+
+
+OUTPUT
+Enter any number: 50
+Sum of all even numbers from 1 to 50: 650
+--------------------------------
+Process exited after 10.47 seconds with return value 0
+Press any key to continue . . .
+
