@@ -1,0 +1,27 @@
+#include <stdio.h>
+int main() {
+    int num1, num2, sum;
+    
+    printf("Enter the first number: ");
+    scanf("%d", &num1);
+    
+    printf("Enter the second number: ");
+    scanf("%d", &num2);
+    
+    sum = num1 + num2;
+    
+    printf("The sum of %d and %d is %d", num1, num2, sum);
+    
+    return 0;
+}
+
+
+
+
+OUTPUT
+Enter the first number: 1
+Enter the second number: 34
+The sum of 1 and 34 is 35
+--------------------------------
+Process exited after 9.106 seconds with return value 0
+Press any key to continue . . .
