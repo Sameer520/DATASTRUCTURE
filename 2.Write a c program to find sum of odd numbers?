@@ -12,3 +12,11 @@ int main()
     printf("Sum of odd numbers = %d", sum);
     return 0;
 }
+
+
+OUTPUT
+Enter any number: 60
+Sum of odd numbers = 900
+--------------------------------
+Process exited after 4.687 seconds with return value 0
+Press any key to continue . . .
