@@ -13,6 +13,7 @@ int main()
 }  
 
 
+
 OUTPUT
 Enter any number: 50
 Sum of all even numbers from 1 to 50: 650
