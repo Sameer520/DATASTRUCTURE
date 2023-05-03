@@ -1,0 +1,30 @@
+#include<stdio.h>
+int main()
+{
+int sum;
+int i,a[5];
+for(i=0;i<5;i++)
+{
+printf("enter the %d value:",i);
+scanf("%d",&a[i]);
+}
+for(i=0;i<5;i++)
+{
+sum=sum+a[i];	
+}
+printf("%d\n",sum);
+return 0;
+}
+
+
+
+OUTPUT
+enter the 0 value:10
+enter the 1 value:20
+enter the 2 value:30
+enter the 3 value:40
+enter the 4 value:50
+150
+--------------------------------
+Process exited after 12.41 seconds with return value 0
+Press any key to continue . . .
