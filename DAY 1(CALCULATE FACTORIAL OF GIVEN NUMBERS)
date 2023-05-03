@@ -1,0 +1,31 @@
+#include <stdio.h>
+int main()
+{
+int num, i;
+long long factorial = 1;
+printf("Enter an integer: ");
+scanf("%d", &num);1
+if (num == 0 || num == 1)
+printf("Factorial of %d is 1", num);
+else
+{
+for (i = 2; i <= num; i++)
+{
+factorial *= i;
+}
+printf("Factorial of %d is %lld", num, factorial);
+}
+return 0;
+}
+
+
+
+
+
+
+OUTPUT
+Enter an integer: 86
+Factorial of 86 is 0
+--------------------------------
+Process exited after 10.59 seconds with return value 0
+Press any key to continue . . .
