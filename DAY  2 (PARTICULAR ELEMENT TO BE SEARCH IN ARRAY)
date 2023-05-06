@@ -5,7 +5,7 @@ int main()
 	int a[50];
 	int search;
 	int flag=0;
-	printf("enter the number of elements");
+	printf("enter the number of elements:");
 	scanf("%d",&s);
 	for(int i=0;i<s;i++)
 	{
@@ -29,7 +29,7 @@ int main()
 
 
 OUTPUT
-enter the number of elements5
+enter the number of elements:5
 enter 0 elements:12
 enter 1 elements:34
 enter 2 elements:56
