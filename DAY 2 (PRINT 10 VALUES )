@@ -5,7 +5,7 @@ int sum;
 	int i,a[10];
 	for(i=0;i<10;i++)
 	{
-		printf("enter the values");
+		printf("enter the value:");
 		scanf("%d",&a[i]);
 	}
 	for(i=0;i<10;i++)
@@ -18,16 +18,16 @@ return 0;
 
 
 OUTPUT
-enter the values 6
-enter the values 30
-enter the values 26
-enter the values 60
-enter the values 3
-enter the values 24
-enter the values 2
-enter the values 58
-enter the values 1
-enter the values 90
+enter the value: 6
+enter the value: 30
+enter the value: 26
+enter the value: 60
+enter the value: 3
+enter the value: 24
+enter the value: 2
+enter the value: 58
+enter the value: 1
+enter the value: 90
 6
 30
 26
